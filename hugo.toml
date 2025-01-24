@@ -1,14 +1,14 @@
-baseURL      = 'https://hugo-porto.netlify.app/'
+baseURL      = 'https://zmlio.netlify.app/'
 languageCode = 'en-us'
-title        = 'My New Hugo Site'
+title        = 'zmlio'
 
 
 [params]
-  description = "John Doe personal website"
-  keywords    = "John Doe, personal website, blog, portfolio"
+  description = "Ainul Muzammil Portfolio Site"
+  keywords    = "Ainul Muzammil, personal website, blog, portfolio"
 
   [params.author]
-    name = 'John Doe'
+    name = 'Ainul Muzammil'
 
 
 # Add theme using Hugo modules
