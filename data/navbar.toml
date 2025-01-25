@@ -14,7 +14,7 @@ title = "zmlio"
   target      = "_self"
 
 [button]
-  enabled = false
+  enabled = true
   text    = "Get my CV"
   link    = "files/cv.pdf"
   target  = "_blank"
