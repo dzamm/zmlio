@@ -1,26 +1,80 @@
-{{/* Default data */}}
-{{ $text := "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, autem tempora provident nihil iste sint excepturi quasi asperiores. Vero itaque labore animi eveniet laboriosam? Dolore ea explicabo corrupti rerum exercitationem." }}
-{{ $image := "https://source.unsplash.com/800x450/?nature,water" }}
-
 {{/* Custom data from configuration file */}}
 {{ with site.Data.sections.custom }}
-  {{ with .text }}
-    {{ $text = . }}
-  {{ end }}
-  {{ with .image }}{{ $image = . }}{{ end }}
+{{/* Section Minat (Interest) */}}
+<section>
+  <h2 class="text-4xl md:text-5xl lg:text-7xl p-5 text-center font-medium font-poppins text-gray-400">
+    {{ .minat.title }}
+  </h2>
+  <div class="-mx-5 flex flex-wrap text-gray-600 text-center">
+    {{ range .minat.list }}
+      <div class="w-full md:w-1/2 lg:w-1/3 px-5">
+        <div class="mb-9 rounded-xl p-7 sm:p-9 lg:px-6 xl:px-9 bg-gray-50">
+          <i class="bx {{ .icon }} text-5xl mx-auto pb-5"></i>
+          <div>
+            <h3 class="mb-4 text-lg font-medium sm:text-xl lg:text-lg xl:text-xl">{{ .title }}</h3>
+            <p class="text-lg font-light">
+              {{ .text }}
+            </p>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+{{/* Section Education */}}
+<section>
+  <h2 class="text-4xl md:text-5xl lg:text-7xl text-center font-medium font-poppins text-gray-400">
+    {{ .education.title }}
+  </h2>
+  <div class="relative mx-auto mt-12 flex w-full flex-col text-center text-gray-600">
+    <span class="left-1/4 absolute inset-y-0 ml-10 hidden w-0.5 bg-gray-300 md:block"></span>
+    {{ range .education.list }}
+      <div class="mt-8 flex flex-col text-center md:flex-row md:text-left">
+        <div class="md:w-1/4">
+          <div class="justify-center md:justify-start font-light text-3xl">
+            {{ .title }}
+          </div>
+        </div>
+        <div class="md:w-3/4">
+          <div class="relative flex md:pl-16">
+            <span class="absolute left-7 top-1 hidden h-6 w-6 rounded-full border-2 border-gray-300 bg-white md:block"></span>
+            <div class="mt-1 flex">
+              <div class="md:-mt-1 md:pl-16">
+                <span class="block font-semibold">{{ .date }}</span>
+                <p class="text-lg font-light">
+                  {{ .text }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+{{/* Section Experience */}}
+<section>
+  <h2 class="text-center p-5 text-4xl md:text-5xl lg:text-7xl font-medium font-poppins text-gray-400">
+    {{ .experience.title }}
+  </h2>
+  <div class="-mx-5 flex flex-wrap text-gray-600">
+    {{ range .experience.list }}
+      <div class="w-full md:w-1/2 lg:w-1/3 px-5">
+        <div class="mb-9 rounded-xl p-7 sm:p-9 lg:px-6 xl:px-9 bg-gray-50">
+          <div>
+            <h3 class="mb-4 text-lg font-medium sm:text-xl lg:text-lg xl:text-xl">{{ .name }}</h3>
+            <h4 class="mb-4 text-xl font-light">{{ .role }}</h4>
+            <p class="text-lg font-light">
+              {{ range .text }}
+                <p class="py-2">{{ . }}</p>
+              {{ end }}
+            </p>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</section>
 {{ end }}
-
-
-<h2 class="text-center text-4xl md:text-5xl lg:text-7xl p-5 rounded-xl font-medium font-poppins text-gray-400">
-  Custom section
-</h2>
-<div class="text-gray-600 container mx-auto flex flex-col md:flex-row items-center justify-center p-5">
-  <div class="w-full md:w-1/2 p-5">
-    <p class="text-lg md:text-xl lg:text-2xl font-light font-poppins">
-      {{ $text }}
-    </p>
-  </div>
-  <div class="w-full md:w-1/2 p-5">
-    <img class="rounded-lg" src="{{ $image }}" alt="Custom image" />
-  </div>
-</div>

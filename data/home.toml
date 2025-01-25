@@ -10,17 +10,17 @@
 
 [[section]]
   id      = "experience"
-  enabled = true
+  enabled = false
   weight  = 3
 
 [[section]]
   id      = "custom"
-  enabled = false
+  enabled = true
   weight  = 4
 
 [[section]]
   id      = "education"
-  enabled = true
+  enabled = false
   weight  = 5
 
 [[section]]

@@ -1,2 +1,67 @@
-text  = "This is a custom section for the theme home page. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc nec ultricies posuere, nunc nunc."
-image = "https://source.unsplash.com/800x450/?black-and-white"
+# custom.toml
+
+# Section Minat (Interest)
+[minat]
+  title = "Ketertarikan atau Minat"  # Judul section minat
+  [[minat.list]]
+    title = "Cloud Computing"
+    text  = "Tertarik dengan layanan cloud seperti AWS, Google Cloud, dan Azure. Senang mempelajari infrastruktur sebagai kode (IaC) dan arsitektur serverless."
+    icon  = "bx-cloud"
+
+  [[minat.list]]
+    title = "Pengembangan Aplikasi Modern"
+    text  = "Menikmati pengembangan aplikasi menggunakan teknologi modern seperti Docker, Kubernetes, dan microservices."
+    icon  = "bxl-docker"
+
+  [[minat.list]]
+    title = "Frontend & Backend Development"
+    text  = "Suka mengembangkan aplikasi full-stack menggunakan React.js, Node.js, dan teknologi terkini lainnya."
+    icon  = "bxl-nodejs"
+
+# Section Education
+[education]
+  title = "Riwayat Pendidikan"  # Judul section education
+  [[education.list]]
+    date  = "2024"
+    title = "Professional Course"
+    text  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien fermentum tincidunt."
+
+  [[education.list]]
+    date  = "2011 - 2014"
+    title = "Training Center"
+    text  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien fermentum tincidunt."
+
+  [[education.list]]
+    date  = "1990 - 1996"
+    title = "University"
+    text  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien fermentum tincidunt."
+
+# Section Experience
+[experience]
+  title = "Pencapaian Profesional"  # Judul section experience
+  [[experience.list]]
+    name = "Company 1"
+    date = "2022 - present"
+    role = "Team Lead"
+    text = [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
+    ]
+
+  [[experience.list]]
+    name = "Company 2"
+    date = "2020 - 2022"
+    role = "Backend Developer"
+    text = [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
+    ]
+
+  [[experience.list]]
+    name = "Company 3"
+    date = "2020"
+    role = "Software Engineer"
+    text = [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
+    ]
