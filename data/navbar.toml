@@ -2,14 +2,14 @@ title = "zmlio"
 # logo  = "img/logo.svg"
 
 [[menu]]
-  text        = "Home"
-  description = "Welcome to my personal website"
+  text        = "Beranda"
+  description = "Selamat Datang di Website Portofolio Saya"
   link        = "/"
   target      = "_self"
 
 [[menu]]
-  text        = "Posts"
-  description = "Read my latest posts"
+  text        = "Tulisan"
+  description = "Baca tulisan aneh yang saya buat"
   link        = "/posts"
   target      = "_self"
 
