@@ -5,73 +5,78 @@
   title = "Ketertarikan atau Minat"  # Judul section minat
   [[minat.list]]
     title = "Kepenulisan"
-    text  = "Menikmati menulis artikel, opini, dan konten kreatif lainnya."
+    text  = "Menikmati menulis artikel, opini, dan tulisan ilmiah."
     icon  = "bx-edit"  # Ikon untuk kepenulisan
 
   [[minat.list]]
-    title = "Perdagangan (Forex)"
-    text  = "Tertarik dengan analisis pasar forex dan strategi trading."
+    title = "Perdagangan"
+    text  = "Tertarik dengan analisis pasar dan strategi dagang."
     icon  = "bx-line-chart"  # Ikon untuk trading
 
   [[minat.list]]
     title = "Politik"
-    text  = "Memiliki minat dalam kebijakan publik, politik internasional, dan isu sosial."
+    text  = "Belajar dan berminat dalam kebijakan publik, politik internasional, nasioal, dan isu sosial."
     icon  = "bx-globe"  # Ikon untuk politik
 
   [[minat.list]]
     title = "Teknologi Informasi dan Komunikasi"
-    text  = "Berkecimpung dalam pengembangan software, jaringan, dan infrastruktur IT."
+    text  = "Belajar dan berminat dalam infrastruktur TIK seperti website dan media."
     icon  = "bx-code"  # Ikon untuk teknologi
 
   [[minat.list]]
     title = "Organisasi"
     text  = "Aktif dalam organisasi dan manajemen tim."
     icon  = "bx-group"  # Ikon untuk organisasi
+  
+  [[minat.list]]
+    title = "Berbagai Hal yang Terkini"
+    text  = "Belajar dan mengikuti perkembangan tren dan isu terkini."
+    icon  = "bx-news"  # Ikon untuk berita terkini
+
+# Section Experience
+[experience]
+  title = "Pengalaman"  # Judul section experience
+  [[experience.list]]
+    name = "IMABA MALANG RAYA"
+    date = "2023 - Sekarang"
+    role = "Ketua Umum"
+    text = [
+      "Saya mendapatkan kepercayaan untuk memimpin organisasi daerah asal saya yakni, Ikatan Mahasiswa Bangkalan Malang Raya.",
+      "Kepemimpinan ini menuntut saya untuk menjaga visi misi organisasi tetap berjalan seperti salah satunya membangun eksistensi organisasi pada khalayak dengan cara yang saya ambil yakni membangun website organisasi sekaligus menjadi media organisasi yang dapat diakses umum.",
+    ]
+
+  [[experience.list]]
+    name = "IMABA DISTRIK UNIMSA"
+    date = "2022 - 2023"
+    role = "Wakil Ketua Umum"
+    text = [
+      "Sebelum Saya Menjabati Ketua Umum di organisasi yang lebih tinggi hirarkinya, saya dipercaya menjadi wakil ketua umum organisasi daerah asal saya yakni Ikatan Mahasiswa Bangkalan distrik Universitas Islam Malang atau kampus saya belajar.",
+    ]
+
+  [[experience.list]]
+    name = "DPM F FIA UNISMA"
+    date = "2022"
+    role = "Ketua Komisi A"
+    text = [
+      "Pada waktu yang bersamaan dengan jabatan sebagai wakil ketua, saya dipercaya untuk memimpin Komisi A Dewan Perwakilan Mahasiswa Fakultas Ilmu Administrasi.",
+      "Di organisasi ini saya memimpin bidang yang berusan dengan komunikasi dan informasi.",
+      "Organisasi ini juga memberikan saya pengalaman dalam memimpin bidang komunikasi dan informasi untuk setiap acara nasional hingga internasional yang diadakan.",
+    ]
 
 # Section Education
 [education]
   title = "Riwayat Pendidikan"  # Judul section education
   [[education.list]]
-    date  = "2024"
-    title = "Professional Course"
-    text  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien fermentum tincidunt."
+    date  = "2019-2024"
+    title = "Universitas Islam Malang"
+    text  = "Pada jenjang perguruan tinggi ini, saya memilih Program Studi Administrasi Publik. Saya mempelajari manajemen, kebijakan publik, keorganisasian, kepolitikan, dan berbagai hal lainnya."
 
   [[education.list]]
-    date  = "2011 - 2014"
-    title = "Training Center"
-    text  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien fermentum tincidunt."
+    date  = "2016 - 2019"
+    title = "MAN BANGKALAN"
+    text  = "Pada jenjang sekolah menengah atas ini, saya memilih jurusan bahasa. Materi yang dipelajari serupa dengan jurusan lainnya, namun terdapat tambahan materi antropologi, bahasa Jerman, Sastra Inggris, Sastra Arab, dan Sastra Indonesia. Meskipun tidak semua materi ini saya kuasai, saya memiliki kemampuan berbahasa Inggris."
 
   [[education.list]]
-    date  = "1990 - 1996"
-    title = "University"
-    text  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut purus eget sapien fermentum tincidunt."
-
-# Section Experience
-[experience]
-  title = "Pencapaian Profesional"  # Judul section experience
-  [[experience.list]]
-    name = "Company 1"
-    date = "2022 - present"
-    role = "Team Lead"
-    text = [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-    ]
-
-  [[experience.list]]
-    name = "Company 2"
-    date = "2020 - 2022"
-    role = "Backend Developer"
-    text = [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-    ]
-
-  [[experience.list]]
-    name = "Company 3"
-    date = "2020"
-    role = "Software Engineer"
-    text = [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.",
-    ]
+    date  = "2013 - 2016"
+    title = "MTsN BANGKALAN"
+    text  = "Sekolah Menengah Pertama."
