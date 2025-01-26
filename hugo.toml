@@ -4,8 +4,8 @@ title        = 'zmlio'
 
 
 [params]
-  description = "Ainul Muzammil Portfolio Site"
-  keywords    = "Ainul Muzammil, personal website, blog, portfolio"
+  description = "Situs Portfolio Ainul Muzammil"
+  keywords    = "Ainul Muzammil, website pribadi, blog, portfolio"
 
   [params.author]
     name = 'Ainul Muzammil'

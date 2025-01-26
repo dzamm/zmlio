@@ -4,19 +4,29 @@
 [minat]
   title = "Ketertarikan atau Minat"  # Judul section minat
   [[minat.list]]
-    title = "Cloud Computing"
-    text  = "Tertarik dengan layanan cloud seperti AWS, Google Cloud, dan Azure. Senang mempelajari infrastruktur sebagai kode (IaC) dan arsitektur serverless."
-    icon  = "bx-cloud"
+    title = "Kepenulisan"
+    text  = "Menikmati menulis artikel, opini, dan konten kreatif lainnya."
+    icon  = "bx-edit"  # Ikon untuk kepenulisan
 
   [[minat.list]]
-    title = "Pengembangan Aplikasi Modern"
-    text  = "Menikmati pengembangan aplikasi menggunakan teknologi modern seperti Docker, Kubernetes, dan microservices."
-    icon  = "bxl-docker"
+    title = "Perdagangan (Forex)"
+    text  = "Tertarik dengan analisis pasar forex dan strategi trading."
+    icon  = "bx-line-chart"  # Ikon untuk trading
 
   [[minat.list]]
-    title = "Frontend & Backend Development"
-    text  = "Suka mengembangkan aplikasi full-stack menggunakan React.js, Node.js, dan teknologi terkini lainnya."
-    icon  = "bxl-nodejs"
+    title = "Politik"
+    text  = "Memiliki minat dalam kebijakan publik, politik internasional, dan isu sosial."
+    icon  = "bx-globe"  # Ikon untuk politik
+
+  [[minat.list]]
+    title = "Teknologi Informasi dan Komunikasi"
+    text  = "Berkecimpung dalam pengembangan software, jaringan, dan infrastruktur IT."
+    icon  = "bx-code"  # Ikon untuk teknologi
+
+  [[minat.list]]
+    title = "Organisasi"
+    text  = "Aktif dalam organisasi dan manajemen tim."
+    icon  = "bx-group"  # Ikon untuk organisasi
 
 # Section Education
 [education]
