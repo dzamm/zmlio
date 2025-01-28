@@ -8,9 +8,9 @@ title = "zmlio"
   target      = "_self"
 
 [[menu]]
-  text        = "Tulisan"
-  description = "Baca tulisan aneh yang saya buat"
-  link        = "/posts"
+  text        = "Coretan"
+  description = "Kumpulan Coretan"
+  link        = "/coretan"
   target      = "_self"
 
 [button]
