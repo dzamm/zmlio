@@ -6,9 +6,9 @@ media_folder: "static/img"
 public_folder: "/img"
 
 collections:
-  - name: "coretan"
+  - name: "Posts"
     label: "post"
-    folder: "content/coretan"
+    folder: "content/posts"
     create: true
     slug: "{{slug}}"
     path: "{{slug}}/index"
