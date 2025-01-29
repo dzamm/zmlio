@@ -5,7 +5,7 @@ tags:
   - Strategi
   - Forex
 image: https://www.vecteezy.com/vector-art/7467022-stock-trade-data-on-graph-with-japanese-candles-graph-for-financial-markets-online-analysis-for-investment
-draft: true
+draft: false
 ---
 T﻿rading forex merupakan salah satu cara untuk menghasilkan uang yang kemudian dapat dimanfaatkan sebagai salah satu cara memenuhi kebutuhan hidup kita, trading merujuk pada kegiatan jual dan beli. Dalam konteks ini tentunya dibutuhkan sebuah strategi atau cara agar kita tidak hanya melakukan kegiatan tersebut, melainkan dapat menghasilkan sesuatu yakni uang. Berikut merupakan beberapa cara yang mungkin layak untuk dicoba:
 
@@ -67,6 +67,18 @@ Ketika harga turun di bawah kurva indikator, itu berubah menjadi merah dan menun
 
 Supertrend membantu anda membuat keputusan trading yang tepat. Namun, ada kalanya indikator ini menghasilkan sinyal palsu. Oleh karena itu, yang terbaik adalah menggunakan kombinasi yang tepat dari beberapa indikator. Seperti indikator lainnya, Supertrend bekerja paling baik bila digunakan dengan indikator lain seperti MACD, SAR Parabolik / Parabolic SAR (SAR), atau RSI.
 
-
-
 > K﻿ita dapat abaikan penjelasan singkat dari tradingview, karena itu hanyalah pelengkap dalam penyusunan strategi ini
+
+#### B﻿agaimana Cara Memanfaatkannya?
+
+M﻿enarik, setelah kita mengetahui cara kerjanya, tentu pertanyaan berikutnya adalah cara memanfaatkannya untuk keuntungan kita tentunya. Berikut merupakan SOP yang disusun, yang kemudian harus dilakukan backtest untuk mengujinya berdasarkan data sebelum pengujian secara real.
+
+
+
+1. C﻿ari arah trend di timeframe yang lebih besar, dalam kasus ini kita akan memilih menggunakan 4 Hour
+2. C﻿ari kesempatan entry sesuai dengan arah trend di timeframe lebih kecil dengan filter berikut
+3. F﻿Ilter entry yang dimanfaatkan adalah timeframe 1 Hour
+4. E﻿ntry sebenarnya dapat dilakukan di timeframe 15 Minutes
+5. P﻿ada timeframe 15 Minutes letak entry seharusnya pada awal perubahan trend yang berlawanan, atau setelah koreksi selesai, walaupun mungkin ini akan diangap sedikit lebih telat. Namun, tidak menjadi persoalan selama sesuai dengan timeframe besar dan masih dalam filter yang digunakan
+
+I﻿tu saja strategi yang disusun sejauh ini, akan diupdate pada waktu yang akan datang
